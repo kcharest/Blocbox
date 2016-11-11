@@ -396,8 +396,8 @@ footer {
    margin-right:8px;
 }
  }
-.left-nav .items ul li active{
-    background-color: aqua;
+.left-nav .items ul li a:active{
+   color: aqua;
 }
  /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
