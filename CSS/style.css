@@ -330,9 +330,9 @@ footer {
  }
   @media (min-width: 992px){
    footer{
-     background-color: #3498DB;
+     background-color: #382920;
      background-image: linear-gradient(to left,
-        #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
+        #382920 0%, #382920 33.33337%, #382920 33.33337%, #382920 100%);
      height: 100px;
    }
    footer p, footer nav ul{
@@ -341,7 +341,7 @@ footer {
 
    }
    footer .right-footer-block {
-     background-color: #3498DB;
+     background-color: #382920;
    }
    footer .logo{
      padding: 2em 0 2em 1.5em;
