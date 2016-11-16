@@ -25,7 +25,7 @@ p{
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  position: static;
+  position: relative;
 }
 .container: before,
 .container: after {
@@ -36,7 +36,7 @@ p{
   clear: both;
 }
 .one-half, .one-third, .one-fourth {
-  width: 96%;
+  width: 40%;
   float: left;
   position: relative;
   min-height: auto;
@@ -131,7 +131,8 @@ p{
  }
  header .hero img {
    display: block;
-   margin:3em auto 0;
+   margin: 3em auto 0;
+   
  }
 /* BUTTONS */
 .btn {
@@ -296,21 +297,23 @@ p{
  }
 /* FOOTER */
 footer {
-   background-color: #34495E;
+   background-color: #382920;
    background-image: linear-gradient(to top,
-      #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
+      #382920 0%, #382920 50%, #382920 50%, #382920 100%);
    color: #FFFFFF;
    height: 150px;
    position: relative;
    overflow: hidden;
    z-index: 0;
    width: 100%;
+
  }
  footer p, footer nav ul {
    font-size:14px;
    font-weight:100;
    text-align: center;
    margin: 10px auto 0;
+
  }
  footer nav ul li {
    list-style-type: none;
@@ -324,7 +327,7 @@ footer {
    background-color: transparent;
  }
  footer .logo{
-   padding: 2.35em 0;
+   padding: 2px 0;
    margin: 0 auto;
    display: block;
  }
