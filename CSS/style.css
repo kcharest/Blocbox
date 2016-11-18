@@ -44,7 +44,8 @@ p{
 }
 @media (min-width: 768px){
   .container {
-    width: 750px;
+    width: 100%;
+    height: auto;
   }
 }
 @media (min-width: 992px) {
